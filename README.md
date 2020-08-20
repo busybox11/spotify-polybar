@@ -33,3 +33,8 @@ Now that you're in the file, add this line at the bottom of it : `@hourly ~/.con
 Run it once to make sure that everything works, if it does, the setup is finished. You can now use this polybar config !
 
 (Tip / reminder : launch polybar using the `launch.sh` script located in `~/.config/polybar` (the location may not be the same as yours depending of your configuration).
+
+## **TODO**
+- Use a one-time launch script approach for Spotify integration
+*This will prevent CPU usage spikes and python script launching very often*
+*The script will be launched once, then it'll update based on the interval provided on the code, without having to relaunch it each time we want to refresh it.*
