@@ -36,5 +36,6 @@ Run it once to make sure that everything works, if it does, the setup is finishe
 
 ## **TODO**
 - Use a one-time launch script approach for Spotify integration
+
 *This will prevent CPU usage spikes and python script launching very often*
 *The script will be launched once, then it'll update based on the interval provided on the code, without having to relaunch it each time we want to refresh it.*
