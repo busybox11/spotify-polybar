@@ -1,13 +1,13 @@
 # spotify-polybar
-
 The polybar theme used here is a slightly modified version of the 2nd theme of [adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes).
+
+This repo is linked with my [dotfiles](https://github.com/busybox11/dotfiles).
 
 ## **Dependencies**
 - python3 (pip3)
 - spotipy (`pip3 install spotipy`)
 
 ## **What modifications are required ?**
-
 You should have a declared app in Spotify's developer dashboard to obtain a `Client ID`.
 
 *How to do it :*
